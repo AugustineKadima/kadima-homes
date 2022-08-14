@@ -12,7 +12,7 @@
 
 .hero_container{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background-image: url("./images/hero_kadima_homes.jpg");
     background-position: center;
     background-size: cover;
@@ -24,7 +24,7 @@
 }
 .hero_content_wrapper{
     width: 90%;
-    height: 120vh;
+    height: 100vh;
     margin: 0px auto;
 
 }
@@ -70,6 +70,7 @@
    
     height: 85vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -79,8 +80,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero_text_and_cta_btn h1{
@@ -101,15 +102,60 @@
     margin-top: 20px;
 }
 
-.hero_data_container{
-    display: flex;
-    flex-direction: column;
+.content_container{
+    background-color: rgb(228, 251, 251);
     width: 100%;
-    align-items: flex-end;
 }
 
-.hero_data_item{
+.content_container_content_wrapper{
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+.content_container_content_wrapper h2{
+    margin-top: 20px;
     margin-bottom: 20px;
-    color: rgb(250, 235, 215,0.9);
-    text-align: right;
+}
+
+.popular_homes_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.homecard{
+    width: 360px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 2px gray;
+    margin-bottom: 20px;
+}
+
+.homecard_img_holder{
+    width: 100%;
+    height: 250px;
+    background-image: url("./images/home_img_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homecard_img_holder2{
+    width: 100%;
+    height: 250px;
+    background-image: url("./images/homecard_img_4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homecard_img_holder3{
+    width: 100%;
+    height: 250px;
+    background-image: url("./images/home_img3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
