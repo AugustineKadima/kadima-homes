@@ -179,7 +179,7 @@
     border-bottom: 1px solid black;
 }
 
-.testimonial_cards{
+#testimonial_cards{
     margin-top: 20px;
     width: 100%;
     display: flex;
@@ -208,14 +208,16 @@
 }
 
 .testimonial_form_wrapper{
+    margin-top: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
   
 }
 
-.testimonial_form{
+#testimonial_form{
+
     background-color: white;
     padding: 20px;
     width: 50%;
@@ -234,7 +236,7 @@
     padding: 5px;
 }
 
-.testimonial_form button{
+#testimonial_form button{
     padding: 10px 30px;
     border: none;
     background-color: black;
@@ -289,4 +291,8 @@ form h3{
     background-color: black;
     color: white;
     border: none;
+}
+
+.active{
+    color: black;
 }

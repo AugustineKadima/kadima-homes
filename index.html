@@ -112,12 +112,12 @@
                     <p>---- Testimonials</p>
                     <h2>Customer Testimonials</h2>
                     <div class="testimonial_nav">
-                        <h4>View testimonials</h4>
-                        <h4>Add  new testimonial</h4>
+                        <h4 id="view_testimonial_btn" onclick="showTestimonialCards()">View testimonials</h4>
+                        <h4 id="add_new_testimonial_btn" onclick="getTestimonialForm()">Add  new testimonial</h4>
 
                     </div>
 
-                    <div class="testimonial_cards">
+                    <div id="testimonial_cards" >
 
                         <div class="testimonial_card_item">
                             <p>I got the best service and bought my dream house. Kadima Homes are the best</p>
@@ -137,7 +137,7 @@
                     </div>
 
                     <div class="testimonial_form_wrapper">
-                        <form class="testimonial_form" action="submit">
+                        <form id="testimonial_form" action="submit">
                             <h3>Add Testimonial</h3>
 
 
