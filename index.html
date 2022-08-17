@@ -126,21 +126,21 @@
                     </div>
 
                     <div class="testimonial_form_wrapper">
-                        <form id="testimonial_form" action="submit">
+                        <form id="testimonial_form">
                             <h3>Add Testimonial</h3>
 
 
                             <div class="form_field">
                                 <label for="name">Your Name</label>
-                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Name" name="author">
                             </div>
 
                             <div class="form_field">
                                 <label for="testimonial">Testimonial</label>
-                                <input type="text" placeholder="Testimonial">
+                                <input type="text" placeholder="Testimonial" name="testimonial">
                             </div>
 
-                            <button>Create</button>
+                            <button type="submit" onclick="handleSubmit(e)">Create</button>
                         </form>
 
                     </div>
